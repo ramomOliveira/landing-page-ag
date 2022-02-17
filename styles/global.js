@@ -75,10 +75,13 @@ export default createGlobalStyle`
   }
 
   input,
-  textarea,html input[type="button"],
+  textarea,
+  html input[type="button"],
   input[type="reset"],
-  input[type="submit"],button[disabled],
-  input[type="radio"], input[type="number"]::-webkit-inner-spin-button,
+  input[type="submit"],
+  button[disabled],
+  input[type="radio"], 
+  input[type="number"]::-webkit-inner-spin-button,
   input[type="number"]::-webkit-outer-spin-button, input[type="search"], input[type="search"]::-webkit-search-cancel-button,
   input[type="search"]::-webkit-search-decoration {
     border:none;

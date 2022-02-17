@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2749" height="2411" viewBox="0 0 2749 2411">
+  <defs>
+    <filter id="Ellipse_1_copy" x="1229" y="556" width="1520" height="1520" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="20" result="blur"/>
+      <feFlood flood-opacity="0.02"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_1_copy_2" x="144" y="0" width="974" height="974" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="20" result="blur-2"/>
+      <feFlood flood-opacity="0.02"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_1_copy_5" x="0" y="1677" width="734" height="734" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="20" result="blur-3"/>
+      <feFlood flood-opacity="0.02"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Shape" transform="translate(384 775)">
+    <g transform="matrix(1, 0, 0, 1, -384, -775)" filter="url(#Ellipse_1_copy)">
+      <circle id="Ellipse_1_copy-2" data-name="Ellipse 1 copy" cx="700" cy="700" r="700" transform="translate(1289 616)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -384, -775)" filter="url(#Ellipse_1_copy_2)">
+      <circle id="Ellipse_1_copy_2-2" data-name="Ellipse 1 copy 2" cx="427" cy="427" r="427" transform="translate(204 60)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -384, -775)" filter="url(#Ellipse_1_copy_5)">
+      <circle id="Ellipse_1_copy_5-2" data-name="Ellipse 1 copy 5" cx="307" cy="307" r="307" transform="translate(60 1737)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
