@@ -1,8 +1,17 @@
-import Button from '../components/Button';
+import makeCarousel from 'react-reveal/makeCarousel';
+// we'll need the Slide component for sliding animations
+// but you can use any other effect
+import Slide from 'react-reveal/Slide';
+// we'll use styled components for this tutorial
+// but you can use any other styling options ( like plain old css )
+
 import Layout from '../components/Layout';
+import Button from '../components/Button';
 
 import {
   Container,
+  Container2,
+  ImgSlideDiv,
   WrapperRight,
   TitleHeader,
   TitleFooter,
@@ -10,6 +19,11 @@ import {
   WrapperLeft,
   Title,
 } from '../styles/index/style';
+
+function CarouselUI({ children }) {
+  return <Container2>{children}</Container2>;
+}
+const Carousel = makeCarousel(CarouselUI);
 
 export default function Home() {
   return (
@@ -33,7 +47,22 @@ export default function Home() {
         </WrapperLeft>
         <WrapperRight>
           <TitleHeader>Bur</TitleHeader>
-          <img src="/images/burger.png" alt="" />
+
+          <Carousel defaultWait={3000} /* wait for 1000 milliseconds */>
+            <Slide right>
+              <ImgSlideDiv />
+            </Slide>
+            <Slide right>
+              <ImgSlideDiv />
+            </Slide>
+            <Slide right>
+              <ImgSlideDiv />
+            </Slide>
+            <Slide right>
+              <ImgSlideDiv />
+            </Slide>
+          </Carousel>
+
           <TitleFooter>ger</TitleFooter>
           <NameBurger>
             Spicy Beef <span>Burger</span>

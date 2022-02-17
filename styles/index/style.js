@@ -13,19 +13,35 @@ export const Container = styled.div`
   }
 `;
 
+export const Container2 = styled.div`
+  position: relative;
+  overflow: hidden;
+  width: 300px;
+  height: 200px;
+
+  @media (min-width: 768px) {
+    width: 600px;
+    height: 400px;
+  }
+`;
+export const ImgSlideDiv = styled.div`
+  background-image: url('/images/burgerS4.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 300px;
+  height: 200px;
+
+  @media (min-width: 768px) {
+    width: 600px;
+    height: 400px;
+  }
+`;
+
 export const WrapperRight = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  > img {
-    width: 400px;
-  }
-
-  @media (min-width: 768px) {
-    > img {
-      width: 600px;
-    }
-  }
 `;
 
 export const TitleHeader = styled.h1`
