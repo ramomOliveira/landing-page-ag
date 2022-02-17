@@ -24,7 +24,7 @@ export const TitleH1 = styled.h1`
 
 export const WrapperUl = styled.ul`
   font-size: 20px;
-  display: flex;
+  display: none;
   align-items: center;
   gap: 30px;
   margin-left: 230px;
@@ -40,12 +40,28 @@ export const WrapperUl = styled.ul`
   > div {
     background-color: var(--medium-white);
     border-radius: 28px;
+    display: flex;
+    align-items: center;
+    padding: 5px 15px;
 
     > input {
       width: 178px;
       padding: 10px;
       font-size: 15px;
-      color: var(--medium-white);
+      color: var(--black);
+      :focus {
+        box-shadow: 0 0 0 0;
+        border: 0 none;
+        outline: 0 none;
+      }
     }
+
+    > img {
+      width: 30px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    display: flex;
   }
 `;

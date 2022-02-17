@@ -25,6 +25,7 @@ export default function NavBar() {
         <li>Main Course</li>
         <div>
           <input placeholder="Search" type="search" />
+          <img src="/images/Search-Icon.png" alt="" />
         </div>
       </WrapperUl>
     </Container>
