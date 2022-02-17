@@ -25,7 +25,7 @@ export const Container2 = styled.div`
   }
 `;
 export const ImgSlideDiv = styled.div`
-  background-image: url('/images/burgerS4.png');
+  background-image: url('/images/burgerS1.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

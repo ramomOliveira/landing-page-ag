@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
   background-color: #fbfafa;
   height: 100vh;
+  width: 100vw;
   background-image: url('/images/Shape.svg');
   background-repeat: no-repeat;
   background-size: cover;
