@@ -1,14 +1,7 @@
-import { useState } from 'react';
 import { IconLogo } from '../Icons';
 import { Container, WrapperUl, TitleH1 } from './style';
 
 export default function NavBar() {
-  const [selected, setSelected] = useState(false);
-
-  const hoverSelected = () => {
-    setSelected(true);
-  };
-
   return (
     <Container>
       <div>
