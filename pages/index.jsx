@@ -27,6 +27,8 @@ function CarouselUI({ children }) {
 }
 const Carousel = makeCarousel(CarouselUI);
 
+const images = ['/images/burgerS1.png', '/images/burgerS4.png'];
+
 export default function Home() {
   return (
     <Layout>
@@ -51,18 +53,11 @@ export default function Home() {
           <TitleHeader>Bur</TitleHeader>
 
           <Carousel defaultWait={3000} /* wait for 1000 milliseconds */>
-            <Flip right>
-              <ImgSlideDiv />
-            </Flip>
-            <Flip right>
-              <ImgSlideDiv />
-            </Flip>
-            <Flip right>
-              <ImgSlideDiv />
-            </Flip>
-            <Flip right>
-              <ImgSlideDiv />
-            </Flip>
+            {images.map((image) => (
+              <Flip right key={image}>
+                <ImgSlideDiv image={image} />
+              </Flip>
+            ))}
           </Carousel>
 
           <TitleFooter>ger</TitleFooter>

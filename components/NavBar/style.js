@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
   display: flex;
   align-items: center;
+  justify-content: space-between;
   padding: 51px 151px 0 157px;
 
   > div {
@@ -27,11 +28,10 @@ export const WrapperUl = styled.ul`
   display: none;
   align-items: center;
   gap: 30px;
-  margin-left: 230px;
 
   > li {
     :hover {
-      color: var(--medium-white);
+      color: var(--black);
       cursor: pointer;
     }
     color: rgba(0, 0, 0, 0.3);
