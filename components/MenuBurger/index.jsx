@@ -1,4 +1,4 @@
-import { slide as Menu } from 'react-burger-menu';
+import { fallDown as Menu } from 'react-burger-menu';
 
 import { styles, Container } from './style';
 

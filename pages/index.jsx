@@ -1,12 +1,5 @@
 import makeCarousel from 'react-reveal/makeCarousel';
-// we'll need the Slide component for sliding animations
-// but you can use any other effect
-// import Slide from 'react-reveal/Slide';
-
 import Flip from 'react-reveal/Flip';
-// we'll use styled components for this tutorial
-// but you can use any other styling options ( like plain old css )
-
 import Layout from '../components/Layout';
 import Button from '../components/Button';
 
@@ -53,7 +46,7 @@ export default function Home() {
         <WrapperRight>
           <TitleHeader>Bur</TitleHeader>
 
-          <Carousel defaultWait={3000} /* wait for 1000 milliseconds */>
+          <Carousel defaultWait={3000}>
             {images.map((image) => (
               <Flip right key={image}>
                 <ImgSlideDiv image={image} />
