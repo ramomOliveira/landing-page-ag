@@ -4,12 +4,29 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 51px 151px 0 157px;
 
   > div {
     display: flex;
-    align-items: flex-end;
-    gap: 2px;
+    align-items: center;
+    padding: 20px;
+  }
+
+  @media (min-width: 768px) {
+    padding: 51px 151px 0 157px;
+
+    > div {
+      padding: 0px;
+    }
+  }
+`;
+
+export const WrapperLogo = styled.div`
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+
+  @media (min-width: 768px) {
+    margin-left: 0px;
   }
 `;
 

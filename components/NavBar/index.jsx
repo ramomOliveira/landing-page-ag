@@ -1,14 +1,18 @@
 import { IconLogo } from '../Icons';
-import { Container, WrapperUl, TitleH1 } from './style';
+import MenuBurger from '../MenuBurger';
+import { Container, WrapperUl, TitleH1, WrapperLogo } from './style';
 
 export default function NavBar() {
   return (
     <Container>
       <div>
-        {IconLogo}
-        <TitleH1>
-          Burger<span>iaz</span>
-        </TitleH1>
+        <MenuBurger />
+        <WrapperLogo>
+          {IconLogo}
+          <TitleH1>
+            Burger<span>iaz</span>
+          </TitleH1>
+        </WrapperLogo>
       </div>
 
       <WrapperUl>
