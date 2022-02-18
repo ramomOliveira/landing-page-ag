@@ -3,7 +3,6 @@ import styled from 'styled-components';
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: end;
   margin-top: 30px;
   padding: 0 20px;
 
@@ -12,7 +11,7 @@ export const Container = styled.div`
     flex-direction: row;
     justify-content: space-between;
     margin-top: 0;
-    padding: 0;
+    padding: 0 157px 50px 0;
   }
 `;
 
@@ -70,7 +69,6 @@ export const WrapperRight = styled.div`
   @media (min-width: 768px) {
     flex-direction: row;
     margin-top: 0;
-    margin-right: 157px;
     padding-bottom: 0;
 
     > h2 {

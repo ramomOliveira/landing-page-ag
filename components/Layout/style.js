@@ -2,8 +2,9 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   background-color: #fbfafa;
-  height: 100vh;
-  width: 100vw;
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
   background-image: url('/images/Shape.svg');
   background-repeat: no-repeat;
   background-size: cover;

@@ -49,6 +49,7 @@ export default function Home() {
 
           <Title>Food</Title>
         </WrapperLeft>
+
         <WrapperRight>
           <TitleHeader>Bur</TitleHeader>
 

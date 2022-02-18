@@ -45,13 +45,15 @@ export const WrapperRight = styled.div`
 `;
 
 export const TitleHeader = styled.h1`
-  margin-bottom: -80px;
+  margin-bottom: -60px;
   font-size: 100px;
   color: #fbfafa;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: rgba(0, 0, 0, 0.3);
   text-transform: uppercase;
   letter-spacing: 10px;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 900;
 
   @media (min-width: 768px) {
     font-size: 130px;
@@ -66,6 +68,8 @@ export const TitleFooter = styled.h1`
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: rgba(0, 0, 0, 0.3);
   letter-spacing: 10px;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 900;
 
   @media (min-width: 768px) {
     font-size: 130px;
@@ -130,6 +134,8 @@ export const Title = styled.div`
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: rgba(0, 0, 0, 0.3);
   letter-spacing: 10px;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 900;
 
   @media (min-width: 768px) {
     margin-bottom: -70px;
